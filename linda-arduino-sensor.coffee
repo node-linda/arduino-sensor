@@ -16,7 +16,7 @@ linda.io.on 'disconnect', ->
 
 ## Arduino
 ArduinoFirmata = require('arduino-firmata')
-arduino = new ArduinoFirmata().connect()
+arduino = new ArduinoFirmata().connect(process.env.ARDUINO)
 
 arduino.once 'connect', ->
   setInterval ->

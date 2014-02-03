@@ -40,6 +40,7 @@ sensors
 
     % export LINDA_BASE=http://node-linda-base.herokuapp.com
     % export LINDA_SPACE=test
+    % export ARDUINO=/dev/cu.usbdevice-name
     % npm start
 
 
