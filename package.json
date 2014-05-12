@@ -8,7 +8,7 @@
     "start": "./node_modules/coffee-script/bin/coffee linda-arduino-sensor.coffee"
   },
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "dependencies": {
     "coffee-script": "~1.6.3",
     "linda-socket.io": "~0.2.0",
