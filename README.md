@@ -1,10 +1,10 @@
-node-linda-arduino-sensor
-=========================
+arduino-sensor
+==============
 Share Arduino's sensor values with [linda-socket.io](https://github.com/node-linda/linda-socket.io)
 
 - write {type: "sensor", name: "light", value: value}
 - write {type: "sensor", name: "temperature", value: value}
-- https://github.com/node-linda/node-linda-arduino-sensor
+- https://github.com/node-linda/arduino-sensor
 
 
 ## Install Dependencies
