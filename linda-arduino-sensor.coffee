@@ -15,15 +15,15 @@ linda.io.on 'disconnect', ->
 
 
 ## Arduino
-ArduinoFirmata = require('arduino-firmata')
-arduino = new ArduinoFirmata().connect(process.env.ARDUINO)
+BLEFirmata = require('ble-firmata')
+arduino = new BLEFirmata().connect(process.env.ARDUINO)
 
 arduino.once 'connect', ->
   setInterval ->
     light = arduino.analogRead 0
     console.log "light : #{light}"
     ts.write {type: "sensor", name: "light", value: light}
-    temp = arduino.analogRead(1)*5*100/1024
+    temp = arduino.analogRead(1)*3.3*100/1024
     console.log "temprature : #{temp}"
     ts.write {type: "sensor", name: "temperature", value: temp}
   , 1000

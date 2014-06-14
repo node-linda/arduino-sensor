@@ -10,9 +10,9 @@
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
   "license": "MIT",
   "dependencies": {
-    "coffee-script": "~1.6.3",
+    "ble-firmata": "0.0.2",
+    "coffee-script": "*",
     "linda": "~> 1.0",
-    "arduino-firmata": "~0.3.0",
     "socket.io-client": "~> 1.0"
   }
 }
