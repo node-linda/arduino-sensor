@@ -1,4 +1,4 @@
-process.env.LINDA_BASE  ||= 'http://node-linda-base.herokuapp.com'
+process.env.LINDA_BASE  ||= 'http://linda-server.herokuapp.com'
 process.env.LINDA_SPACE ||= 'test'
 
 ## Linda

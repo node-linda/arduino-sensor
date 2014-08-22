@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "coffee-script": "*",
-    "linda": "~> 1.0",
+    "linda": "~> 1.1",
     "arduino-firmata": "~0.3.0",
     "socket.io-client": "~> 1.0"
   }
