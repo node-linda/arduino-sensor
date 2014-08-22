@@ -35,12 +35,12 @@ sensors
 
     % npm start
 
-=> http://node-linda-base.herokuapp.com/test?type=sensor
+=> http://linda-server.herokuapp.com/test?type=sensor
 
 
-## Run with your [linda-base](https://github.com/node-linda/node-linda-base)
+## Run with your [linda-server](https://github.com/node-linda/linda)
 
-    % export LINDA_BASE=http://node-linda-base.herokuapp.com
+    % export LINDA_BASE=http://linda-server.herokuapp.com
     % export LINDA_SPACE=test
     % export ARDUINO=/dev/cu.usbdevice-name
     % npm start
