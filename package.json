@@ -5,7 +5,7 @@
   "description": "",
   "main": "linda-arduino-sensor.coffee",
   "scripts": {
-    "start": "./node_modules/coffee-script/bin/coffee linda-arduino-sensor.coffee"
+    "start": "coffee linda-arduino-sensor.coffee"
   },
   "author": "Sho Hashimoto <hashimoto@shokai.org>",
   "license": "MIT",
